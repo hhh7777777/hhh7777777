@@ -1,0 +1,18 @@
+/*Ê×Ò³ÑùÊ½*/
+.container{
+    width: 375px;
+    display: column;
+    justify-content: space-between;
+}
+.container>.header{
+    height: 90px;  
+}
+.container>.content{
+    flex:1;
+    height: 200px;
+}
+
+.container>.footer{
+    height: 50px;
+    border-top:1px solid #ccc ;
+}
